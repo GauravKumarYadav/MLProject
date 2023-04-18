@@ -2,4 +2,6 @@ pandas
 numpy
 seaborn
 pyspark
+scikit-learn
+catboost
 -e .
