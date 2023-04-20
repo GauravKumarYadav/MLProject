@@ -4,4 +4,5 @@ seaborn
 pyspark
 scikit-learn
 catboost
--e .
+xgboost
+#-e .
