@@ -5,4 +5,6 @@ pyspark
 scikit-learn
 catboost
 xgboost
+pyyaml
+dill
 #-e .

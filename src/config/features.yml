@@ -1,0 +1,10 @@
+target_columns: ["math score"]
+numerical_features: ["reading score", "writing score"]
+categorical_features:
+  [
+    "gender",
+    "race/ethnicity",
+    "parental level of education",
+    "lunch",
+    "test preparation course",
+  ]

@@ -1,0 +1,4 @@
+[ 2023-04-21 12:34:35,067 ] 27 root - INFO - Entered the initiate data ingestion
+[ 2023-04-21 12:34:35,088 ] 37 root - INFO - Read the dataset as df
+[ 2023-04-21 12:34:35,096 ] 43 root - INFO - combined all csvs into one and moved to raw data folder
+[ 2023-04-21 12:34:35,097 ] 48 root - INFO - Initiating Train Test Split

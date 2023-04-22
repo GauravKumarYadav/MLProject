@@ -1,0 +1,10 @@
+[ 2023-04-22 20:39:09,302 ] 28 root - INFO - Entered the initiate data ingestion
+[ 2023-04-22 20:39:09,307 ] 49 root - INFO - Initiating Train Test Split
+[ 2023-04-22 20:39:09,315 ] 56 root - INFO - Train test split completed
+[ 2023-04-22 20:39:09,320 ] 69 root - INFO - Read train and test data Completed
+[ 2023-04-22 20:39:09,320 ] 70 root - INFO - get preprocessing object
+[ 2023-04-22 20:39:09,322 ] 51 root - INFO - categorical features encoding complete
+[ 2023-04-22 20:39:09,322 ] 52 root - INFO - numerical features scaling completed
+[ 2023-04-22 20:39:09,326 ] 87 root - INFO - Applying preprocessing object on training dataframe and testing dataframe.
+[ 2023-04-22 20:39:09,351 ] 101 root - INFO - Saved preprocessing object.
+[ 2023-04-22 20:39:09,356 ] 32 root - INFO - spliting training and testing data
