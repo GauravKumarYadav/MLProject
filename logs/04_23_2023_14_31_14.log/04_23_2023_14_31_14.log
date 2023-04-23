@@ -1,0 +1,47 @@
+[ 2023-04-23 14:31:14,217 ] 28 root - INFO - Entered the initiate data ingestion
+[ 2023-04-23 14:31:14,238 ] 49 root - INFO - Initiating Train Test Split
+[ 2023-04-23 14:31:14,268 ] 56 root - INFO - Train test split completed
+[ 2023-04-23 14:31:14,275 ] 69 root - INFO - Read train and test data Completed
+[ 2023-04-23 14:31:14,275 ] 70 root - INFO - get preprocessing object
+[ 2023-04-23 14:31:14,279 ] 51 root - INFO - categorical features encoding complete
+[ 2023-04-23 14:31:14,279 ] 52 root - INFO - numerical features scaling completed
+[ 2023-04-23 14:31:14,292 ] 87 root - INFO - Applying preprocessing object on training dataframe and testing dataframe.
+[ 2023-04-23 14:31:14,352 ] 101 root - INFO - Saved preprocessing object.
+[ 2023-04-23 14:31:14,360 ] 32 root - INFO - spliting training and testing data
+[ 2023-04-23 14:31:14,364 ] 31 root - INFO - model name :RandomForestRegressor()
+[ 2023-04-23 14:31:14,365 ] 32 root - INFO - params for RandomForestRegressor() : {'n_estimators': [8, 16, 32, 64, 128, 256]} 
+[ 2023-04-23 14:31:21,058 ] 31 root - INFO - model name :DecisionTreeRegressor()
+[ 2023-04-23 14:31:21,058 ] 32 root - INFO - params for DecisionTreeRegressor() : {'criterion': ['squared_error', 'friedman_mse', 'absolute_error', 'poisson']} 
+[ 2023-04-23 14:31:21,200 ] 31 root - INFO - model name :GradientBoostingRegressor()
+[ 2023-04-23 14:31:21,200 ] 32 root - INFO - params for GradientBoostingRegressor() : {'learning_rate': [0.1, 0.01, 0.05, 0.001], 'subsample': [0.6, 0.7, 0.75, 0.8, 0.85, 0.9], 'n_estimators': [8, 16, 32, 64, 128, 256]} 
+[ 2023-04-23 14:31:58,574 ] 31 root - INFO - model name :LinearRegression()
+[ 2023-04-23 14:31:58,574 ] 32 root - INFO - params for LinearRegression() : {} 
+[ 2023-04-23 14:31:58,607 ] 31 root - INFO - model name :KNeighborsRegressor()
+[ 2023-04-23 14:31:58,607 ] 32 root - INFO - params for KNeighborsRegressor() : {} 
+[ 2023-04-23 14:31:58,726 ] 31 root - INFO - model name :XGBRegressor(base_score=None, booster=None, callbacks=None,
+             colsample_bylevel=None, colsample_bynode=None,
+             colsample_bytree=None, early_stopping_rounds=None,
+             enable_categorical=False, eval_metric=None, feature_types=None,
+             gamma=None, gpu_id=None, grow_policy=None, importance_type=None,
+             interaction_constraints=None, learning_rate=None, max_bin=None,
+             max_cat_threshold=None, max_cat_to_onehot=None,
+             max_delta_step=None, max_depth=None, max_leaves=None,
+             min_child_weight=None, missing=nan, monotone_constraints=None,
+             n_estimators=100, n_jobs=None, num_parallel_tree=None,
+             predictor=None, random_state=None, ...)
+[ 2023-04-23 14:31:58,727 ] 32 root - INFO - params for XGBRegressor(base_score=None, booster=None, callbacks=None,
+             colsample_bylevel=None, colsample_bynode=None,
+             colsample_bytree=None, early_stopping_rounds=None,
+             enable_categorical=False, eval_metric=None, feature_types=None,
+             gamma=None, gpu_id=None, grow_policy=None, importance_type=None,
+             interaction_constraints=None, learning_rate=None, max_bin=None,
+             max_cat_threshold=None, max_cat_to_onehot=None,
+             max_delta_step=None, max_depth=None, max_leaves=None,
+             min_child_weight=None, missing=nan, monotone_constraints=None,
+             n_estimators=100, n_jobs=None, num_parallel_tree=None,
+             predictor=None, random_state=None, ...) : {'learning_rate': [0.1, 0.01, 0.05, 0.001], 'n_estimators': [8, 16, 32, 64, 128, 256]} 
+[ 2023-04-23 14:32:04,973 ] 31 root - INFO - model name :<catboost.core.CatBoostRegressor object at 0x7fa00a36c1f0>
+[ 2023-04-23 14:32:04,973 ] 32 root - INFO - params for <catboost.core.CatBoostRegressor object at 0x7fa00a36c1f0> : {'depth': [6, 8, 10], 'learning_rate': [0.01, 0.05, 0.1], 'iterations': [30, 50, 100]} 
+[ 2023-04-23 14:32:14,261 ] 31 root - INFO - model name :AdaBoostRegressor()
+[ 2023-04-23 14:32:14,261 ] 32 root - INFO - params for AdaBoostRegressor() : {'learning_rate': [0.1, 0.01, 0.5, 0.001], 'n_estimators': [8, 16, 32, 64, 128, 256]} 
+[ 2023-04-23 14:32:32,241 ] 92 root - INFO - best found model on both training and test dataset
