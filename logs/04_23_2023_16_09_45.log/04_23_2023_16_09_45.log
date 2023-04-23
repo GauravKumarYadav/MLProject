@@ -1,0 +1,6 @@
+[ 2023-04-23 16:09:45,754 ] 224 werkzeug - WARNING -  * Debugger is active!
+[ 2023-04-23 16:09:45,769 ] 224 werkzeug - INFO -  * Debugger PIN: 775-025-630
+[ 2023-04-23 16:09:54,048 ] 39 root - INFO - data input :   gender race/ethnicity parental level of education         lunch test preparation course  reading score  writing score
+0   male        group A          associate's degree  free/reduced                    none           56.0           46.0
+[ 2023-04-23 16:09:54,245 ] 43 root - INFO - predicted data : [51.9375]
+[ 2023-04-23 16:09:54,258 ] 224 werkzeug - INFO - 127.0.0.1 - - [23/Apr/2023 16:09:54] "POST /predictDataPoint HTTP/1.1" 200 -
