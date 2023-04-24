@@ -1,0 +1,15 @@
+[ 2023-04-24 22:56:03,096 ] 224 werkzeug - WARNING -  * Debugger is active!
+[ 2023-04-24 22:56:03,108 ] 224 werkzeug - INFO -  * Debugger PIN: 775-025-630
+[ 2023-04-24 22:56:05,496 ] 224 werkzeug - INFO - 127.0.0.1 - - [24/Apr/2023 22:56:05] "GET / HTTP/1.1" 200 -
+[ 2023-04-24 22:56:06,132 ] 224 werkzeug - INFO - 127.0.0.1 - - [24/Apr/2023 22:56:06] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[ 2023-04-24 22:56:07,779 ] 224 werkzeug - INFO - 127.0.0.1 - - [24/Apr/2023 22:56:07] "GET /predictDataPoint HTTP/1.1" 200 -
+[ 2023-04-24 22:57:06,837 ] 224 werkzeug - INFO - 127.0.0.1 - - [24/Apr/2023 22:57:06] "GET / HTTP/1.1" 200 -
+[ 2023-04-24 22:57:10,130 ] 224 werkzeug - INFO - 127.0.0.1 - - [24/Apr/2023 22:57:10] "GET / HTTP/1.1" 200 -
+[ 2023-04-24 22:57:10,345 ] 224 werkzeug - INFO - 127.0.0.1 - - [24/Apr/2023 22:57:10] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[ 2023-04-24 22:57:21,901 ] 224 werkzeug - INFO - 127.0.0.1 - - [24/Apr/2023 22:57:21] "GET / HTTP/1.1" 200 -
+[ 2023-04-24 22:59:13,487 ] 224 werkzeug - INFO - 127.0.0.1 - - [24/Apr/2023 22:59:13] "GET / HTTP/1.1" 200 -
+[ 2023-04-24 22:59:17,075 ] 224 werkzeug - INFO - 127.0.0.1 - - [24/Apr/2023 22:59:17] "GET /predictDataPoint HTTP/1.1" 200 -
+[ 2023-04-24 22:59:32,286 ] 39 root - INFO - data input :   gender race/ethnicity parental level of education     lunch test preparation course  reading score  writing score
+0   male        group C                 high school  standard                    none           56.0           79.0
+[ 2023-04-24 22:59:32,558 ] 43 root - INFO - predicted data : [80.46875]
+[ 2023-04-24 22:59:32,559 ] 224 werkzeug - INFO - 127.0.0.1 - - [24/Apr/2023 22:59:32] "POST /predictDataPoint HTTP/1.1" 200 -
