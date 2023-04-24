@@ -1,0 +1,13 @@
+[ 2023-04-24 15:39:48,589 ] 224 werkzeug - WARNING -  * Debugger is active!
+[ 2023-04-24 15:39:48,604 ] 224 werkzeug - INFO -  * Debugger PIN: 775-025-630
+[ 2023-04-24 15:40:07,225 ] 224 werkzeug - INFO - 127.0.0.1 - - [24/Apr/2023 15:40:07] "GET / HTTP/1.1" 200 -
+[ 2023-04-24 15:40:07,827 ] 224 werkzeug - INFO - 127.0.0.1 - - [24/Apr/2023 15:40:07] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[ 2023-04-24 15:40:18,813 ] 224 werkzeug - INFO - 127.0.0.1 - - [24/Apr/2023 15:40:18] "GET /predictDataPoint HTTP/1.1" 200 -
+[ 2023-04-24 15:40:42,037 ] 39 root - INFO - data input :   gender race/ethnicity parental level of education         lunch test preparation course  reading score  writing score
+0   male        group A          associate's degree  free/reduced               completed           56.0           78.0
+[ 2023-04-24 15:40:42,339 ] 43 root - INFO - predicted data : [72.75]
+[ 2023-04-24 15:40:42,340 ] 224 werkzeug - INFO - 127.0.0.1 - - [24/Apr/2023 15:40:42] "POST /predictDataPoint HTTP/1.1" 200 -
+[ 2023-04-24 15:41:53,176 ] 39 root - INFO - data input :   gender race/ethnicity parental level of education         lunch test preparation course  reading score  writing score
+0   male        group A          associate's degree  free/reduced               completed           56.0           78.0
+[ 2023-04-24 15:41:53,189 ] 43 root - INFO - predicted data : [72.75]
+[ 2023-04-24 15:41:53,192 ] 224 werkzeug - INFO - 127.0.0.1 - - [24/Apr/2023 15:41:53] "POST /predictDataPoint HTTP/1.1" 200 -
