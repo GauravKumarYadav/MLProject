@@ -1,11 +1,10 @@
 pandas
 numpy
 seaborn
-pyspark
 scikit-learn
 catboost
 xgboost
 pyyaml
 dill
 flask
-#-e .
+-e .
